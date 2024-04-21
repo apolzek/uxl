@@ -35,3 +35,10 @@ Desenhe um Encurtador de URL
 - Adicionar rate limiter
 - Database replication and sharding
 - Analytics: how many clicks? when?
+
+
+## Run
+
+```sh
+curl -X POST http://localhost:9999/api/urls -H "Content-Type: application/json" -d "{\"target\":\"https://bytebytego.com/courses/system-design-interview/design-a-url-shortener\"}"
+```
